@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Govt Exam Alert</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>India Government Exam Updates</h1>
+
+<button id="exportBtn">Download Exam List</button>
+
+<input type="text" id="searchInput" placeholder="Search exam...">
+
+<p>Upcoming Exams</p>
+
+<select id="cityFilter">
+<option value="all">All Cities</option>
+<option value="Chennai">Chennai</option>
+<option value="Madurai">Madurai</option>
+<option value="Trichy">Trichy</option>
+</select>
+
+<h2>Add New Exam</h2>
+
+<input id="examName" placeholder="Exam Name">
+<input id="city" placeholder="City">
+<input id="date" type="date">
+
+<button onclick="addExam()">Add Exam</button>
+
+<ul id="examList"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>

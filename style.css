@@ -1,0 +1,27 @@
+body{
+font-family: Arial;
+background-color:#f2f2f2;
+text-align:center;
+}
+
+h1{
+color:#2c3e50;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+background:white;
+margin:10px;
+padding:15px;
+border-radius:8px;
+box-shadow:0 0 5px gray;}
+@media (max-width:600px){
+ input{
+  width:100%;
+  margin-bottom:10px;
+ }
+}
